@@ -1,0 +1,22 @@
+@import '../Vars.scss';
+
+.welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 67px;
+
+}
+
+.welcome--name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.welcome--ask{
+    font-size: 14px;
+    font-weight: 400;
+    color: $elgray;
+
+}

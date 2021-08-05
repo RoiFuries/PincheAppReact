@@ -1,4 +1,13 @@
-body {
+@import './Vars.scss';
+
+*{
+    box-sizing: border-box;
     margin: 0;
-    background-color: aquamarine;
+    padding: 0;
+}
+
+html{
+    font-family: $font;
+    display: flex;
+    flex-direction: column;
 }

@@ -1,0 +1,15 @@
+@import '../Vars.scss';
+
+
+.carousel{
+    width: 100%;
+    overflow: scroll;
+    padding: 10px 30px;
+    position: relative;
+}
+
+.carousel__container{
+    white-space: nowrap;
+    margin: 20px 0px;
+    padding-bottom: 10px;
+}
