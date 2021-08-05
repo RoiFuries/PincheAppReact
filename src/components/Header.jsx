@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../assets/static/brand/logo.png';
-import iconBurger from '../assets/static/icons/burger.png';
-import iconProfile from '../assets/static/icons/profile.png';
+import logo from '../assets/static/brand/logo.svg';
+import iconBurger from '../assets/static/icons/burger.svg';
+import iconProfile from '../assets/static/icons/profile.svg';
 import '../assets/styles/components/Header.scss';
 
 const Header = () => (

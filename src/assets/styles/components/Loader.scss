@@ -1,0 +1,40 @@
+@import '../Vars.scss';
+
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: $pink;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    padding: 20px 11px;
+
+}
+.up{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    width: 100%;
+    height: calc(100vh - 160px)   ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.down{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
