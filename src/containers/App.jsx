@@ -7,6 +7,7 @@ import Recomendations from '../components/Recomendations';
 import CarouselTitle from '../components/CarouselTitle';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
+import Menu from '../components/Menu';
 
 const App = () => (
   <div className='app'>
@@ -44,6 +45,7 @@ const App = () => (
         <CarouselItem />
       </Carousel>
     </CarouselTitle>
+    <Menu />
 
   </div>
 );

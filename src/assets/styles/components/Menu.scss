@@ -1,0 +1,85 @@
+@import '../Vars.scss';
+
+.menu{
+    background-color: $soft-blue;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+.menu__iconsConatiner{
+    display: flex;
+    justify-content: center;
+
+}
+.menu__iconsConatiner__left{
+    width: 108px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__iconsConatiner__left__btn__img{
+    width: 38px;
+    height: 37px;
+}
+.menu__iconsConatiner__rigth{
+    width: 108px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu__iconsConatiner__center{
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+    
+
+}
+.menu__iconsConatiner_a_center{
+    width: 80px;
+    height: 80px;
+    border: 7px solid white;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu__iconsConatiner_b_center{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $btnSarte1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__iconsConatiner_c_center{
+    width: 54px;
+    height:54px;
+    border-radius: 50px;
+    background-color: $btnSarte2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__iconsConatiner__center__btn{
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: $btnSarte3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__iconsConatiner__center__btn__img{
+    width: 30px;
+    height: 30px;
+    // background-color: blue;
+}
+
+.menu__iconsConatiner__rigth__btn__img{
+    width: 38px;
+    height: 37px;
+}
