@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/Seacrh.scss';
-import iconSearch from '../assets/static/icons/search.png';
+import iconSearch from '../assets/static/icons/search.svg';
 
 const Search = () => (
   <div className='search'>

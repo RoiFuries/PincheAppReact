@@ -1,9 +1,9 @@
 import React from 'react';
-import IconSarten from '../assets/static/icons/IconSarten.png';
-import IconMariana from '../assets/static/icons/IconMariana.png';
-import IconBasket from '../assets/static/icons/IconBasket.png';
-import IconProfile from '../assets/static/icons/IconProfile.png';
-import IconChallenge from '../assets/static/icons/IconChallenge.png';
+import IconSarten from '../assets/static/icons/IconSarten.svg';
+import IconMariana from '../assets/static/icons/IconMariana.svg';
+import IconBasket from '../assets/static/icons/IconBasket.svg';
+import IconProfile from '../assets/static/icons/IconProfile.svg';
+import IconChallenge from '../assets/static/icons/IconChallenge.svg';
 import '../assets/styles/components/Menu.scss';
 
 const Menu = () => {
