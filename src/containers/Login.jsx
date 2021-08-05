@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../assets/static/brand/logo.svg';
 import '../assets/styles/components/Login.scss';
+import iconFB from '../assets/static/icons/IconFacebok.svg';
+import iconGo from '../assets/static/icons/IconGoogle.svg';
 
 const Login = () => {
   return (
@@ -26,9 +28,25 @@ const Login = () => {
           </label>
           <p className='rememberPass_remembe--Forget'>¿Olvidaste tu <br /> contraseña?</p>
         </div>
-        <a href="" className="loginContainer__rememberPass">
+        <a href='' className='loginContainer__rememberPass'>
           Entrar   |   Registrar
         </a>
+        <div className='loginContainer__o'>
+          <p className='loginContainer__o--txt'>
+            - ó -
+          </p>
+        </div>
+        <div className='loginContainer__Rs'>
+          <div className='loginContainer__Rs__go'>
+            <img src={iconGo} alt='' className='loginContainer__Rs__go--icon' />
+            <p className='loginContainer__Rs__go--google'>Google</p>
+          </div>
+          <div className='loginContainer__Rs__fb'>
+            <img src={iconFB} alt='' className='loginContainer__Rs__fb--icon' />
+            <p className='loginContainer__Rs__fb--facebook'>Facebook</p>
+          </div>
+
+        </div>
       </section>
     </div>
   );
